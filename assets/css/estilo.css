@@ -1,0 +1,206 @@
+* {
+    font-family: Century Gothic, Arial;
+}
+
+@keyframes anime {
+    0% {opacity: 0%; width: 0%;}
+    100% {opacity: 100%; width: 100%;}
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header_container {
+    width: 100%;
+}
+
+.titulo, .subtitulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-size: 40px;
+}
+
+.linha_titulo {
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    width: 100%;
+    animation-name: anime;
+    animation-duration: 4s;
+}
+
+.subtitulo {
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.banner {
+    height: 600px;
+    background-image: url(../img/koji_antigo.jpeg);
+    background-size: cover;
+    background-position-x:391px;
+}
+
+.banner-text {
+    width: 80%;
+    font-size: 73px;
+    height: 600px;
+    color: aliceblue;
+    padding-left: 70px;
+    padding-top: 90px;
+    background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(255, 255, 255, 0));
+    
+}
+
+
+
+
+
+
+
+
+.about_area {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #271811;
+}
+
+.about-img {
+    display: flex;
+    width: 57%;
+}
+
+.ajuste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.desc::first-letter {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.bio-desc {
+    height: 100px;
+    background-color: aliceblue;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    color: #381c0e;
+    padding: 25px;
+    font-size: 8px;
+    width: 300px;
+}
+
+
+
+
+
+
+section .about {
+    padding: 20px;
+    width: 700px;
+    text-align: justify;
+}
+
+.about-img img {
+    height: 350px;
+    border-bottom-left-radius: 40px;
+    background-size: cover;
+}
+
+.audio_mario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.audio_mario p {
+    font-size: 10px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.ajuste-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline_area {
+    color: white;
+    background: linear-gradient(to bottom, #271811 50%, rgba(255, 255, 255, 0));
+}
+
+.titulo_lista {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+.coluna_geral {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.coluna_geral p {
+    margin-bottom: 5px;
+}
+
+.coluna1 {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+
+.linha {
+    width: 1px;
+    background-color: white;
+}
+
+.coluna2 {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.coluna2 a {
+    color: white;
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+    border-top: 2px solid white;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
